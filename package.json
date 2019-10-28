@@ -1,0 +1,50 @@
+{
+  "name": "ryansproxy",
+  "version": "1.0.0",
+  "description": "my proxy don't touch",
+  "main": "index.js",
+  "proxy": "localhost:3333",
+  "scripts": {
+    "start": "nodemon proxyserver/index.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealExpensiveItems/ryansproxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealExpensiveItems/ryansproxy/issues"
+  },
+  "homepage": "https://github.com/RealExpensiveItems/ryansproxy#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "http-proxy-middleware": "^0.20.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-modal": "^3.10.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "file-loader": "^4.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
